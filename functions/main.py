@@ -6,7 +6,6 @@ def func(*args):
     other_ele = []
 
     for i in mixed_arr:
-        print(type(i))
         if i.isdigit():
             i = int(i)
             if i > 1:
