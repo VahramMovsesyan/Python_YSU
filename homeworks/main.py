@@ -23,8 +23,10 @@ print(f"gcd of integers: {gcd(*int_digits)} \navg of float numbers: {sum(float_d
 
 # 1.b  պալինդրոմների քանակը
 def is_palindrome(item):
+    str(item)
     if len(item) > 1:
         return item == item[::-1]
+
 count = 0
 for i in arr:
     if is_palindrome(i):
